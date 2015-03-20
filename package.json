@@ -1,0 +1,19 @@
+{
+  "name": "minimum_ol3_browserify_webpack",
+  "version": "1.0.0",
+  "description": "Minimum project to use Browserify or Webpack with OpenLayers 3 library",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Gratier",
+  "license": "ISC",
+  "dependencies": {
+    "openlayers": "^3.3.0"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "imports-loader": "^0.6.3",
+    "webpack": "^1.5.3"
+  }
+}
