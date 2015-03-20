@@ -64,4 +64,4 @@ In the repository, for the demo purpose, we added `devDependencies` to both Brow
 
 * [WebPack official website](https://webpack.github.io)
 * [How To WebPack](https://github.com/petehunt/webpack-howto)
-* [WebPack fro Browserify users](https://github.com/webpack/docs/wiki/webpack-for-browserify-users)
+* [WebPack for Browserify users](https://github.com/webpack/docs/wiki/webpack-for-browserify-users)
