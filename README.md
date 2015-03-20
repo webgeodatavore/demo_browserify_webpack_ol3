@@ -18,10 +18,10 @@ Let's get started!
 
 You can do the following to make things worked (you already have `git` on your machine for sure)
 
-    git clone https://gist.github.com/ThomasG77/demo_browserify_webpack_ol3
+    git clone https://github.com/webgeodatavore/demo_browserify_webpack_ol3.git
     cd demo_browserify_webpack_ol3
 
-or if you want to avoid using `git`, download, unzip <https://github.com/ThomasG77/demo_browserify_webpack_ol3/archive/master.zip> and go into the directory using the system command line executable `cd`.
+or if you want to avoid using `git`, download, unzip <https://github.com/webgeodatavore/demo_browserify_webpack_ol3/archive/master.zip> and go into the directory using the system command line executable `cd`.
 
 ### Install dependencies
 
