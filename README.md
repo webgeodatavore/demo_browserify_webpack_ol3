@@ -2,7 +2,7 @@
 
 To get started on an OpenLayers project, you have two main choices to manage dependencies:
 
-* By hand, like if you go to take a look on the [OpenLayers official quickstart](http://openlayers.org/en/v3.3.0/doc/quickstart.html)
+* By hand, like if you go to take a look on the [OpenLayers official quickstart](http://openlayers.org/en/v3.13.1/doc/quickstart.html)
 
 * Using Node tools like Browserify or WebPack to get all the libraries, compress them and manage dependencies
 
@@ -39,7 +39,8 @@ Build the js code including ol3 library and the custom code
 
     ./node_modules/.bin/webpack app.js bundle.js
 
-We were able to solve a scope issue due to this feedback from [this issue](https://github.com/openlayers/ol3/issues/3162). We needed to use webpack.config.js and it works now.
+We were able to solve various issues due to feedbacks from [this issue](https://github.com/openlayers/ol3/issues/3162).
+We changed the webpack.config.js and it works now.
 
 ### Test
 
@@ -51,7 +52,8 @@ If not, open an issue to tell us more!
 
 ## Note
 
-In the repository, for the demo purpose, we added `devDependencies` to both Browserify and WebPack. In fact, depending of your tool choice, you can remove for Browserify only `imports-loader` and `webpack` and for WebPack, `browserify`.
+* In the repository, for the demo purpose, we added `devDependencies` to both Browserify and WebPack. In fact, depending of your tool choice, you can remove for Browserify only `webpack` and for WebPack, `browserify`.
+* The version of OpenLayers is now updated to 3.13.1
 
 ## Learn more
 

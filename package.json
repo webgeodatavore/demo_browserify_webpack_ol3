@@ -9,11 +9,10 @@
   "author": "Thomas Gratier",
   "license": "ISC",
   "dependencies": {
-    "openlayers": "^3.3.0"
+    "openlayers": "^3.13.1"
   },
   "devDependencies": {
-    "browserify": "^8.1.1",
-    "imports-loader": "^0.6.3",
-    "webpack": "^1.5.3"
+    "browserify": "^13.0.0",
+    "webpack": "^1.12.13"
   }
 }
