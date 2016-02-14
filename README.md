@@ -40,7 +40,8 @@ Build the js code including ol3 library and the custom code
     ./node_modules/.bin/webpack app.js bundle.js
 
 We were able to solve various issues due to feedbacks from [this issue](https://github.com/openlayers/ol3/issues/3162).
-We changed the webpack.config.js and it works now.
+We changed the webpack.config.js and it works now without warnings.
+You can also remove `webpack.config.js` but you will get some warnings (non blocking)
 
 ### Test
 
